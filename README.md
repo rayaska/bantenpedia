@@ -14,7 +14,7 @@ Banten Pedia relies on a chain system. Bigger upakara `A` has a list of its cons
   - [Contributing](#contributing)
     - [Upakara](#upakara)
     - [Development](#development)
-  - [Lisence](#lisence)
+  - [License](#license)
 
 ## Getting Started
 
@@ -44,6 +44,6 @@ For contributors who knows about Balinese upakara:
 
 Developers can contribute by adding new requested features, bug fixing, or improving the documentation. Please read [CONTRIBUTING.md](https://example.com) for further information.
 
-## Lisence
+## License
 
-Banten Pedia is an open source project lisenced under the [Apache Lisence 2.0](https://example.com).
+Banten Pedia is an open source project licensed under the [Apache License 2.0](./LICENSE).
