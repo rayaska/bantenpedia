@@ -42,7 +42,7 @@ For contributors who knows about Balinese upakara:
 
 ### Development
 
-Developers can contribute by adding new requested features, bug fixing, or improving the documentation. Please read [CONTRIBUTING.md](https://example.com) for further information.
+Developers can contribute by adding new requested features, bug fixing, or improving the documentation. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for further information.
 
 ## License
 
