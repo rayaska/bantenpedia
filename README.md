@@ -24,8 +24,8 @@ Banten Pedia is a monorepo project. The backend built using [Go](https://go.dev)
 
 ### Supporting Resources
 
-- Information architecture: https://www.figma.com/board/TyoFiSV6UwMnBYh7MBj39W/Banten-Pedia-Information-Architecture
-- Entity relationship diagram: [TBA](https://example.com)
+- Information architecture: [IA in FigJam](https://www.figma.com/board/TyoFiSV6UwMnBYh7MBj39W/Banten-Pedia-Information-Architecture)
+- Entity relationship diagram: [ERD in draw.io](./bantenpedia.drawio)
 
 ## Contributing
 
