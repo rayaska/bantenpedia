@@ -1,3 +1,5 @@
+<img src="./resources/images/banner.svg" alt="Banten Pedia Banner" width="400">
+
 # Banten Pedia - Balinese Upakara Collection
 
 Banten Pedia is a form of concern for Balinese tangible culture: Upakara. With Banten Pedia, we store all of our knowledge about Upakara in a written form, make it easier for the new generation to learn about upakara. Our elder, even us will not stay forever in the world. It's our era to contribute to our own culture in a modern way.

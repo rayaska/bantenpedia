@@ -19,6 +19,7 @@ Images for identity of Banten Pedia provided in [images](./images) directory.
 - [`icon-with-name.svg`](./images/icon-with-name.svg): official icon of Banten Pedia with the name ᬩᬦ᭄ᬢᭂᬦ᭄ᬧᬾᬤ᭄ᬬ᭟ (Banten Pedia).
 - [`black-silhouette.svg`](./images/black-silhouette.svg): the "plain" logo of Banten Pedia, silhouette of _klatkat_.
 - [`silhouette.svg`](./images/silhouette.svg): the silhouette of Banten Pedia logo with _klatkat_ woven style.
+- [`banner.svg`](./images/banner.svg): banner for this GitHub repository.
 
 ### Guide
 
@@ -26,3 +27,18 @@ Images for identity of Banten Pedia provided in [images](./images) directory.
 - The [`icon-with-name.svg`](./images/icon-with-name.svg) is the example when the logo and name side by side, e.g. navbar brand.
 - The [`silhouette.svg`](./images/silhouette.svg) and [`black-silhouette.svg`](./images/black-silhouette.svg) used on a limited basis, e.g. logo hover state and footer silhouette.
 - Logo refinement would be greatly appreciated, considering this is the first design of the logo.
+
+## Colors
+
+_Tri Datu_ color palette of the icon.
+
+- `#FF4848` for red.
+- `#FBFBFB` for white.
+- `#262626` for black.
+
+<br>
+<div>
+    <span style="background-color: #FF4848; padding: 0.5rem; padding-inline: 2rem;"></span>
+    <span style="background-color: #FBFBFB; padding: 0.5rem; padding-inline: 2rem;"></span>
+    <span style="background-color: #262626; padding: 0.5rem; padding-inline: 2rem;"></span>
+</div>
