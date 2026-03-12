@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@font-face {
+	font-family: 'PustakaBali';
+	src: url('/fonts/PustakaBali.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 @import 'tailwindcss';
 
 @theme {
@@ -13,4 +20,8 @@
 body {
 	font-family: 'Inter', sans-serif;
 	background-color: var(--color-pedia-white-secondary);
+}
+
+.pustaka-bali {
+	font-family: 'PustakaBali', sans-serif;
 }
