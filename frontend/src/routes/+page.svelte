@@ -1,18 +1,19 @@
 <script lang="ts">
+	import Footer from '$lib/components/common/Footer.svelte';
 	import StatisticCard from '$lib/components/home/StatisticCard.svelte';
 	import StatisticChart from '$lib/components/home/StatisticChart.svelte';
 </script>
 
-<section
-	class="mx-10 flex min-h-dvh flex-col items-center justify-center gap-5 md:gap-10"
-	id="hero"
->
-	<figure>
-		<img src="/images/icon-with-name.svg" alt="Banten Pedia Icon" class="w-xs md:w-sm" />
+<section class="flex min-h-dvh flex-col items-center justify-center gap-2 px-10 md:gap-6" id="hero">
+	<figure class="flex flex-row items-center">
+		<img src="/images/icon-only.svg" alt="Banten Pedia Icon" class="w-25 md:w-40" />
+		<p class="pustaka-bali mb-4 cursor-default text-4xl text-pedia-white md:text-7xl">
+			ᬩᬦ᭄ᬢᭂᬦ᭄ᬧᬾᬤ᭄ᬬ᭟
+		</p>
 	</figure>
 	<header class="flex flex-col items-center text-center">
-		<h1 class="mb-3 text-3xl font-semibold text-pedia-black md:text-5xl">Banten Pedia</h1>
-		<div class="flex flex-col gap-2 text-base text-pedia-black-secondary md:w-200 md:text-lg">
+		<h1 class="mb-3 text-3xl font-semibold text-pedia-white md:text-5xl">Banten Pedia</h1>
+		<div class="flex flex-col gap-2 text-base text-pedia-white-secondary md:w-200 md:text-lg">
 			<p>
 				Banten Pedia menyediakan kumpulan upakara yang digunakan oleh masyarakat Hindu di Bali.
 				<span class="hidden md:inline">
@@ -26,7 +27,7 @@
 	</header>
 </section>
 
-<section class="mx-10 my-15 flex flex-col items-center gap-5 md:gap-10" id="statistic">
+<section class="my-15 flex flex-col items-center gap-5 px-10 md:gap-10" id="statistic">
 	<header class="flex flex-col items-center text-center">
 		<h2 class="mb-3 text-2xl font-semibold text-pedia-black md:text-4xl">Statistik Banten Pedia</h2>
 		<p class="text-base text-pedia-black-secondary md:w-200 md:text-lg">
@@ -79,12 +80,12 @@
 	</div>
 </section>
 
-<section class="mx-10 my-15 flex flex-col items-center gap-5 md:gap-10" id="upakara">
+<section class="my-15 flex flex-col items-center gap-5 px-10 md:gap-10" id="upakara">
 	<header class="flex flex-col items-center text-center">
 		<h2 class="mb-3 text-2xl font-semibold text-pedia-black md:text-4xl">Upakara</h2>
 		<div class="flex flex-col gap-2 text-base text-pedia-black-secondary md:w-200 md:text-lg">
 			<p>
-				Berbagai macam upakara disediakan oleh Banten Pedia. Mulai satu upakara utuh, hingga
+				Berbagai macam upakara terideks oleh Banten Pedia. Mulai satu upakara utuh, hingga
 				bagian-bagian penyusunnya. Sistem kontribusi memungkinkan upakara yang terindeks bertambah
 				seiring waktu.
 			</p>
@@ -101,23 +102,18 @@
 	</a>
 </section>
 
-<footer class="bg-pedia-red py-5 md:px-10">
-	<div class="flex flex-col items-center md:flex-row">
-		<div class="order-2 flex items-center md:order-1 md:w-full">
-			<img src="/images/silhouette.svg" alt="Banten Pedia Icon" class="w-25 md:w-35" />
-			<p class="pustaka-bali mb-4 text-4xl text-pedia-black md:text-5xl">ᬩᬦ᭄ᬢᭂᬦ᭄ᬧᬾᬤ᭄ᬬ᭟</p>
-		</div>
-		<div class="order-1 flex text-pedia-white md:order-2 md:w-full">
-			<ul class="flex flex-col items-center gap-1 text-sm md:items-start md:gap-2 md:text-base">
-				<li class="flex gap-1">
-					<i class="bi bi-github"></i><a href="https://github.com/rayaska/bantenpedia">GitHub</a>
-				</li>
-				<li><p class="text-pedia-white">© 2026 Banten Pedia</p></li>
-			</ul>
-		</div>
-	</div>
-</footer>
+<Footer />
 
 <svelte:head>
 	<title>Beranda | Banten Pedia</title>
 </svelte:head>
+
+<style>
+	#hero {
+		background-image:
+			linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('/images/hero-bg.webp');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+</style>
