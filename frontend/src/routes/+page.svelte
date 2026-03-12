@@ -1,8 +1,11 @@
 <script lang="ts">
-	import Footer from '$lib/components/common/Footer.svelte';
 	import StatisticCard from '$lib/components/home/StatisticCard.svelte';
 	import StatisticChart from '$lib/components/home/StatisticChart.svelte';
 </script>
+
+<svelte:head>
+	<title>Beranda | Banten Pedia</title>
+</svelte:head>
 
 <section class="flex min-h-dvh flex-col items-center justify-center gap-2 px-10 md:gap-6" id="hero">
 	<figure class="flex flex-row items-center">
@@ -102,16 +105,10 @@
 	</a>
 </section>
 
-<Footer />
-
-<svelte:head>
-	<title>Beranda | Banten Pedia</title>
-</svelte:head>
-
 <style>
 	#hero {
 		background-image:
-			linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('/images/hero-bg.webp');
+			linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('/images/hero-bg.webp');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
