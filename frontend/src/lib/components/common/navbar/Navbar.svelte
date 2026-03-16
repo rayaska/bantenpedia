@@ -2,6 +2,7 @@
 	import NavLink from './NavLink.svelte';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
+	import { navLinks } from '$lib/constants/NavLinks';
 
 	let scrollY = $state(0);
 	let navClass = $state(
@@ -34,17 +35,9 @@
 			>
 		</a>
 		<ul class="hidden gap-5 text-pedia-white md:flex">
-			<NavLink href="/" label="Beranda" />
-			<NavLink href="/upakara" label="Upakara" />
-			<NavLink href="/contribution" label="Kontribusi" />
-			<NavLink href="/qna" label="Q&A" />
+			{#each navLinks as navLink (navLink.id)}
+				<NavLink href={navLink.href} label={navLink.label} />
+			{/each}
 		</ul>
-
-		<button
-			aria-label="Toggle Menu"
-			class="cursor-pointer rounded border border-pedia-white px-1 hover:border-pedia-white-secondary hover:text-pedia-white-secondary md:hidden"
-		>
-			<i class="bi bi-list"></i>
-		</button>
 	</div>
 </nav>

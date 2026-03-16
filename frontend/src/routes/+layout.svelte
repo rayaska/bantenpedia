@@ -4,6 +4,7 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import Navbar from '$lib/components/common/navbar/Navbar.svelte';
 	import Footer from '$lib/components/common/Footer.svelte';
+	import BottomNav from '$lib/components/common/bottomNav/BottomNav.svelte';
 
 	let { children } = $props();
 </script>
@@ -12,3 +13,4 @@
 <Navbar />
 {@render children()}
 <Footer />
+<BottomNav />
